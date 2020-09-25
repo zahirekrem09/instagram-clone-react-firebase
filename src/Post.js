@@ -71,7 +71,9 @@ function Post({ postId,user, username, caption, imageUrl }) {
           ))
         }
       </div>
-      <form className="post__commentBox">
+      {
+        user && (
+<form className="post__commentBox">
         <input
           type="text"
           className="post__input"
@@ -83,6 +85,9 @@ function Post({ postId,user, username, caption, imageUrl }) {
 
         </button>
       </form>
+        )
+      }
+      
 
       {/* username and captions */}
     </div>
