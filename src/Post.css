@@ -3,6 +3,7 @@
   background-color: white;
   border: 1px solid lightgray;
   margin-bottom: 3rem;
+  box-shadow: 15px 15px 15px  lightgray ;
 }
 
 .post__image {
@@ -25,4 +26,29 @@
 
 .post__avatar {
   margin-right: 0.8rem;
+}
+
+.post_comments {
+  padding: 1.5rem;
+}
+
+.post__commentBox {
+  display: flex;
+  margin-top: 10px;
+ 
+
+}
+.post__input {
+  flex: 1;
+  padding: .7rem;
+  border: none;
+  border-top: 1px solid lightgray;
+}
+.post__button {
+  flex: 0;
+  border: none;
+  border-top: 1px solid lightgray;
+  padding:  0 5px;
+  color: #6082a3;
+  background-color: transparent;
 }

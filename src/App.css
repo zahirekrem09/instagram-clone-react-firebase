@@ -12,8 +12,29 @@
   padding: 1rem;
   border-bottom: 1px solid lightgray;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .app__headerImage {
   height: 50px;
+  object-fit: contain;
+}
+
+.app__signup {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+.app_posts {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+
+  
+}
+.app_postsRight {
+  margin-left: 1.5rem
 }
